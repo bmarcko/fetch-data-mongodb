@@ -1,0 +1,17 @@
+{
+    "name": "user/ipt10-fetch-data",
+    "autoload": {
+        "psr-4": {
+            "User\\Ipt10FetchData\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "bmarcko",
+            "email": "bobbymarckocruz@gmail.com"
+        }
+    ],
+    "require": {
+        "mongodb/mongodb": "^1.12"
+    }
+}
