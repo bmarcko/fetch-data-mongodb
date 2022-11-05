@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'user/ipt10-fetch-data',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'deea38573a7e68b8f66ec7ea9a893494d0bb3c08',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -28,6 +28,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'mustache/mustache' => array(
+            'pretty_version' => 'v2.14.2',
+            'version' => '2.14.2.0',
+            'reference' => 'e62b7c3849d22ec55f3ec425507bf7968193a6cb',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../mustache/mustache',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'symfony/polyfill-php80' => array(
             'pretty_version' => 'v1.26.0',
             'version' => '1.26.0.0',
@@ -38,9 +47,9 @@
             'dev_requirement' => false,
         ),
         'user/ipt10-fetch-data' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'deea38573a7e68b8f66ec7ea9a893494d0bb3c08',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
