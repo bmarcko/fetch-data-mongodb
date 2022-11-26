@@ -12,10 +12,6 @@ class ComposerStaticInitc839d56f70c12a5872ab6d3a0b7d3eb1
     );
 
     public static $prefixLengthsPsr4 = array (
-        'U' => 
-        array (
-            'User\\Ipt10FetchData\\' => 20,
-        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Php80\\' => 23,
@@ -23,6 +19,7 @@ class ComposerStaticInitc839d56f70c12a5872ab6d3a0b7d3eb1
         'M' => 
         array (
             'MongoDB\\' => 8,
+            'Models\\' => 7,
         ),
         'J' => 
         array (
@@ -31,10 +28,6 @@ class ComposerStaticInitc839d56f70c12a5872ab6d3a0b7d3eb1
     );
 
     public static $prefixDirsPsr4 = array (
-        'User\\Ipt10FetchData\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
-        ),
         'Symfony\\Polyfill\\Php80\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-php80',
@@ -42,6 +35,11 @@ class ComposerStaticInitc839d56f70c12a5872ab6d3a0b7d3eb1
         'MongoDB\\' => 
         array (
             0 => __DIR__ . '/..' . '/mongodb/mongodb/src',
+        ),
+        'Models\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/models',
+            1 => __DIR__ . '/..' . '/autoload.php',
         ),
         'Jean85\\' => 
         array (

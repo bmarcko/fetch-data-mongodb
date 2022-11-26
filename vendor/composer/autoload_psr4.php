@@ -6,8 +6,8 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'User\\Ipt10FetchData\\' => array($baseDir . '/src'),
     'Symfony\\Polyfill\\Php80\\' => array($vendorDir . '/symfony/polyfill-php80'),
     'MongoDB\\' => array($vendorDir . '/mongodb/mongodb/src'),
+    'Models\\' => array($baseDir . '/models', $vendorDir . '/autoload.php'),
     'Jean85\\' => array($vendorDir . '/jean85/pretty-package-versions/src'),
 );

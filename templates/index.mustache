@@ -37,8 +37,9 @@
                     <td>{{ program }}</td>
                     <td>{{ contactNumber }}</td>
                     <td>{{ emergencyContact }}</td>
-                    <td><a href="edit.php?id={{_id}}" class="btn btn-primary">EDIT</a>
-                        <a href="delete.php?id={{_id}}" class="btn btn-danger" onclick="return confirm('Are you sure you want to remove this record?')">DELETE</a></td>
+                    <td><a href="edit.php?studentId={{studentId}}" class="btn btn-primary">EDIT</a>
+                        <a href="delete.php?studentId={{studentId}}" class="btn btn-danger" onclick="return confirm('Are you sure you want to remove this record?')">DELETE</a></td>
+               
                 </tr>
             {{/result}}
             </tbody>

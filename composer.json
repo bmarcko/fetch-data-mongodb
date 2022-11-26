@@ -2,7 +2,7 @@
     "name": "user/ipt10-fetch-data",
     "autoload": {
         "psr-4": {
-            "User\\Ipt10FetchData\\": "src/"
+            "Models\\": ["models/","vendor/autoload.php"]
         }
     },
     "authors": [
